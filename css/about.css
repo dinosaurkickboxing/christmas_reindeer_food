@@ -1,9 +1,15 @@
 /* complete */
-html{
+html {
   margin: 15px 0px 15px 15px;
 }
+
 body {
-  font-family: 'Roboto', sans-serif
+  font-family: 'Roboto', sans-serif;
+}
+
+#social-causes, #accordion, #author {
+  width: 100%;
+  padding: 7%;
 }
 
 #social-causes h4 {
@@ -24,7 +30,6 @@ header {
 #logo {
   display: flex;
   height: 20%;
-
 }
 
 #logo-image {
@@ -45,7 +50,10 @@ nav {
   margin-left: 50%;
   background-color: #D6F3DC;
   border-radius: 50px 0px 0px 50px;
-  }
+  <<<<<<< HEAD=======
+  /*border-radius: 30%;*/
+  >>>>>>>4ec0eb0ecaaa11b89ef5520df34dccbf76f1f27d
+}
 
 nav ul {
   display: flex;
@@ -68,13 +76,12 @@ a {
 }
 
 /* social causes */
-
-
-#social-causes img {
+<<<<<<< HEAD #social-causes img {
   display: flex;
   padding: 15px;
   max-width: 50%;
-  min-width: 300px;
+  <<<<<<< HEAD min-width: 300px;
+  =======>>>>>>>4ec0eb0ecaaa11b89ef5520df34dccbf76f1f27d
 }
 
 .social {
@@ -92,22 +99,39 @@ a {
   padding-top: 25px;
 }
 
-/* author */
-#author {
-  width: 100%;
-  padding: 7%;
+/*toggle*/
+#accordion{
+  padding: 12%;
+  display: inline-block;
+}
+#meet-the-characters img {
+  max-width: 150px;
+}
+.character-one, .character-two, .character-three, .character-four {
+  width: 400px;
+  display: inline-table;
+}
+.character-one .text, .character-two .text, .character-three .text, .character-four .text{
+
 }
 
+/* author */
 #author .author-text {
   max-width: 70%;
   padding: 15px;
+  float: left;
 }
 
-#author .quote{
+<<<<<<< HEAD #author .quote {
   text-align: center;
   width: 500px;
 }
 
 #author .quote span {
   font-weight: 700;
+}
+
+.right {
+  position: absolute;
+  right: 0;
 }
