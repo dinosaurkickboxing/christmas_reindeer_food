@@ -36,7 +36,7 @@ nav {
   align-items: center;
   margin-left: 50%;
   background-color: #D6F3DC;
-  /*border-radius: 30%;*/
+  border-radius: 50px 0px 0px 50px;
   }
 
 nav ul {
@@ -147,7 +147,7 @@ a {
 
 #redBox {
 background-color: #FFDBDB;
-height: 30%;
+height: 35%;
 width: 100%;
 display: flex;
 position: absolute;
@@ -159,9 +159,33 @@ margin-top: 46%;
   margin-top: 50%;
   text-align: left;
   margin-left: 15%;
-  width: 70%;
+  width: 65%;
   font-size: 14pt;
   font-weight: lighter;
+}
+
+.red-text span {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.byline {
+  position: relative;
+  text-align: left;
+  font-size: 12pt;
+  font-weight: lighter;
+  margin-left: 85%;
+}
+
+.author-itl {
+  position: relative;
+  text-align: left;
+  font-style: italic;
+  font-size: 12pt;
+  font-weight: 100;
+  margin-left: 87%;
+  margin-top: -1%;
+
 }
 
 #steam-container {
@@ -199,6 +223,67 @@ margin-top: 46%;
   text-align: right;
   width: 25%;
 
+}
+
+/*.vl {
+  border-left: 5px solid #166B19;
+  height: 10%;
+  margin-left: 93%;
+  position: relative;
+
+}*/
+
+#classroom-container {
+  width: 60%;
+  position: absolute;
+  margin-top: 5%;
+}
+
+#classroom {
+  display: flex;
+  height: 15%;
+  width: auto;
+}
+
+#classroom-img {
+  margin-left: 25%;
+  height: 15%;
+}
+
+#classroom-img img {
+  width: 100%;
+}
+
+.reviews {
+  font-weight: lighter;
+  margin-top: 7%;
+  margin-left: 70%;
+  width: 23%;
+}
+
+.reviews p {
+  padding: 5%;
+}
+
+/*.hl {
+  border-top: 10px;
+  position: absolute;
+}*/
+
+#multiculturalism {
+  display: flex;
+
+}
+
+.multi-images {
+  height: 15%;
+  width: 10%;
+}
+
+#multi-2 {
+  height: 15%;
+  width: auto;
+  /*transform: rotate(90deg);*/
 }
 
 
