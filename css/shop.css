@@ -1,0 +1,58 @@
+/*ABOUT CSS*/
+body {border: 1px solid black;}
+
+.bookTextContainer {
+  max-width: 725px;
+  background-color: ;
+  border:1px solid black;
+  margin-bottom: 80px;
+  margin-left: 40px;
+}
+
+.bookContainer {background-color: ;
+  display: flex;
+margin-top: 30px;
+}
+
+.bookImage {width: 268px;
+height: 279px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.bookName {font-family: 'Roboto', sans-serif;
+font-weight: 700;
+background-color: ;
+margin: 0px;
+max-width: 490px;
+
+}
+
+.bookPrice {font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 18px;
+background-color: ;
+flex-grow: 8;
+padding-top: 10px;
+text-align: right;
+
+}
+
+.row1 {display: flex;}
+
+.bookSummary {font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 15px;
+
+}
+
+.purchaseBook {font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 15px;
+background-color: ;
+max-width: 200px;
+margin-right: 40px;
+  color: #166B19;}
+
+.row2 {display: flex;
+background-color: ;
+margin-top: 25px; }
