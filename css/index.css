@@ -1,0 +1,213 @@
+/*index.html styles*/
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  flex-direction: row;
+}
+
+#logo-container {
+  display: flex;
+  height: 20%;
+  width: 20%;
+}
+
+#logo {
+  display: flex;
+  height: 20%;
+
+}
+
+#logo-image {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+}
+
+#logo-image img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  width: auto;
+  height: 20%;
+  align-items: center;
+  margin-left: 50%;
+  background-color: #D6F3DC;
+  border-radius: 50px 0px 0px 50px;
+  }
+
+nav ul {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  font-size: 12pt;
+  width: 40%;
+  color: #166B19;
+}
+
+a {
+  text-decoration: none;
+  color: #166B19;
+}
+
+#crf1-container {
+  display: flex;
+  height: 40%;
+  width: 40%;
+}
+
+#crf1 {
+  display: flex;
+  margin-top: 20%;
+}
+
+#crf1-img{
+  position: absolute;
+  height: 40%;
+  width: 40%;
+}
+
+#crf1-img img {
+  width: 100%;
+}
+
+#crf2-container {
+  display: flex;
+  height: 40%;
+  width: 40%;
+}
+
+#crf2 {
+  display: flex;
+  margin-left: 150%;
+}
+
+#crf2-img{
+  position: absolute;
+  height: 40%;
+  width: 40%;
+}
+
+#crf2-img img {
+  width: 100%;
+}
+
+#extra {
+  position: absolute;
+  margin-left: 55%;
+  font-size: 20pt;
+  /*padding-right: .5%;
+  padding-left: .5%;
+  padding-bottom: .5%;*/
+  background-color: #99E2A9;
+  background-position: ;
+}
+
+#extra-p {
+  position: absolute;
+  margin-left: 48%;
+  font-size: 14pt;
+  padding-top: 4%;
+  font-weight: lighter;
+  width: 15%;
+}
+
+#grBox {
+  background-color: #99E2A9;
+  position: absolute;
+  height: 5%;
+  width: 11.5%;
+  margin-left: 35%;
+  margin-top: 27.5%;
+}
+
+#books {
+  position: absolute;
+  margin-left: 35%;
+  padding-top: 25%;
+  font-size: 20pt;
+}
+
+#books-p {
+  position: absolute;
+  margin-left: 40.5%;
+  font-size: 14pt;
+  padding-top: 29%;
+  font-weight: lighter;
+  width: 10%;
+}
+
+#redBox {
+background-color: #FFDBDB;
+height: 30%;
+width: 100%;
+display: flex;
+position: absolute;
+margin-top: 46%;
+}
+
+.red-text {
+  position:relative;
+  margin-top: 50%;
+  text-align: left;
+  margin-left: 15%;
+  width: 70%;
+  font-size: 14pt;
+  font-weight: lighter;
+}
+
+#steam-container {
+  display: flex;
+  height: 20%;
+  width: 100%;
+}
+
+#steam {
+  display: flex;
+  margin-top: 10%;
+}
+
+#steam-img{
+  position: absolute;
+  height: 20%;
+  width: 50%;
+  margin-left: 10%;
+}
+
+#steam-img img {
+  width: 100%;
+}
+
+#steam-header {
+  font-weight: ;
+  margin-left: 70%;
+  text-align: right;
+  width: 25%;
+}
+
+#steam-text {
+  font-weight: lighter;
+  margin-left: 70%;
+  text-align: right;
+  width: 25%;
+
+}
+
+
+
+
+
+
+
+
+footer {
+
+}
