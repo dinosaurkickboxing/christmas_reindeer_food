@@ -97,7 +97,7 @@ a {
 /*toggle*/
 
 #toggle-btn{
-  display: inline-block;
+  padding-left: 35%;
 }
 
 #toggle-collapse #meet-the-characters, #toggle-collapse #fun-facts {
@@ -141,8 +141,8 @@ a {
 }
 
 #author .quote {
+  padding-top: 30px;
   text-align: center;
-  width: 500px;
 }
 
 #author .quote span {
@@ -152,4 +152,11 @@ a {
 .right {
   position: absolute;
   right: 7%;
+}
+
+@media (max-width 1057px) {
+  #author .container{
+    border: 3px solid;
+
+  }
 }
