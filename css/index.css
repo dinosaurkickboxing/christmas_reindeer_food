@@ -196,7 +196,7 @@ margin-top: 46%;
 
 #steam {
   display: flex;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 #steam-img{
@@ -236,7 +236,7 @@ margin-top: 46%;
 #classroom-container {
   width: 60%;
   position: absolute;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 #classroom {
@@ -256,7 +256,7 @@ margin-top: 46%;
 
 .reviews {
   font-weight: lighter;
-  margin-top: 7%;
+  margin-top: 10%;
   margin-left: 70%;
   width: 23%;
 }
@@ -270,25 +270,42 @@ margin-top: 46%;
   position: absolute;
 }*/
 
+h2 {
+  font-size: 20pt;
+  text-align: center;
+  margin-top: 7%;
+}
+
 #multiculturalism {
   display: flex;
+  flex-direction: row;
 
 }
 
 .multi-images {
-  height: 15%;
-  width: 10%;
+  height: 40%;
+  width: auto%;
 }
 
 #multi-2 {
   height: 15%;
-  width: auto;
-  /*transform: rotate(90deg);*/
+  width: 15%;
+  transform: rotate(90deg);
+  margin-top: 5%;
 }
 
+#multi-2 img {
+    width: 100%;
+}
 
+#multi-5 {
+  height: 15%;
+  width: 12%;
+}
 
-
+#multi-5 img {
+  width:100%;
+}
 
 
 
