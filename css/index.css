@@ -311,5 +311,78 @@ h2 {
 
 
 footer {
+  text-align: center;
+  flex-direction: row;
+  background-color: #D6F3DC;
+  width: 100%;
+  padding: 5%;
+}
 
+#up-to-date {
+  font-weight: lighter;
+  font-size: 12pt;
+  width: 22%;
+  margin-left: 15%;
+}
+
+#up-to-date span {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#up-to-date form input {
+  font-weight: lighter;
+  color: grey;
+  background: white;
+  padding: 2%;
+  text-align: left;
+  width: 80%;
+  font-size: 12pt;
+}
+
+#donate-foot {
+  font-weight: lighter;
+  font-size: 12pt;
+  width: 22%;
+  margin-left: 50%;
+  margin-top: -14%;
+}
+
+#donate-foot span {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#donate-foot form input {
+  font-weight: lighter;
+  color: grey;
+  background: white;
+  padding: 2%;
+  text-align: left;
+  width: 80%;
+  font-size: 12pt;
+}
+
+#donate-foot form-submit-button {
+  width: 100%;
+  background: #166B19;
+  border-style: hidden;
+}
+
+#candy-container {
+  width: 100%;
+  height: 8%;
+  margin-top: 2%;
+}
+
+#candy {
+  height: 8%;
+}
+
+#candy-img {
+  height: 8%;
+}
+
+#candy-img img {
+  width: 100%;
 }
