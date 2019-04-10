@@ -307,7 +307,12 @@ h2 {
   width:100%;
 }
 
-
+#multi-p {
+  text-align: left;
+  font-weight: lighter;
+  width: 50%;
+  margin-left: 30%;
+}
 
 
 footer {
@@ -316,6 +321,7 @@ footer {
   background-color: #D6F3DC;
   width: 100%;
   padding: 5%;
+  margin-top: 5%;
 }
 
 #up-to-date {
@@ -340,11 +346,23 @@ footer {
   font-size: 12pt;
 }
 
+#up-to-date input[type=submit] {
+  width: 85%;
+  margin-top: 1%;
+  background: #166B19;
+  border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .5pt;
+}
+
 #donate-foot {
   font-weight: lighter;
   font-size: 12pt;
   width: 22%;
-  margin-left: 50%;
+  margin-left: 55%;
   margin-top: -14%;
 }
 
@@ -363,10 +381,16 @@ footer {
   font-size: 12pt;
 }
 
-#donate-foot form-submit-button {
-  width: 100%;
+#donate-foot input[type=submit] {
+  width: 85%;
+  margin-top: 1%;
   background: #166B19;
   border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .5pt;
 }
 
 #candy-container {
