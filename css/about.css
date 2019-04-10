@@ -123,15 +123,45 @@ a {
   background-color: #166B19;
 }
 
-
 #meet-the-characters img {
   max-width: 150px;
 }
 
 .character-one, .character-two, .character-three, .character-four {
-  width: 400px;
+  width: 250px;
   display: inline-table;
+
 }
+
+.character-three, .character-four{
+  padding-left: 20px;
+  border-left: .5px solid #D6D6D6;
+}
+
+.character-two{
+  padding-left: 20px;
+}
+
+.character-one{
+  border-right: .5px solid #D6D6D6;
+  padding-right: 20px;
+}
+
+
+.character-three, .character-four{
+  padding-top: 20px;
+}
+
+.character-one .text,  .character-two .text,  .character-three .text,   .character-four .text{
+  width: 200px;
+}
+
+/*.character-one img,  .character-two img,  .character-three img,   .character-four img{
+  display: block;
+  float: left;
+}*/
+
+
 
 /* author */
 #author .author-text {
