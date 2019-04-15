@@ -230,9 +230,42 @@ margin-top: 46%;
 
 }
 
+#classroom-container {
+  width: 60%;
+  position: absolute;
+  margin-top: 8%;
+}
+
+#classroom {
+  display: flex;
+  height: 15%;
+  width: auto;
+}
+
+#classroom-img {
+  margin-left: 25%;
+  height: 15%;
+}
+
+#classroom-img img {
+  width: 100%;
+}
+
+.reviews {
+  font-weight: lighter;
+  margin-top: 10%;
+  margin-left: 70%;
+  width: 23%;
+}
+
+.reviews p {
+  padding: 5%;
+}
+
+
 #multi{
   text-align: center;
-  positon: absolute;
+  position: absolute;
   margin-top: 23rem;
   width: 100%;
   right: 100px;
