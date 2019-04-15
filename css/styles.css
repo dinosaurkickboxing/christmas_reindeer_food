@@ -1,0 +1,47 @@
+
+
+  .my-h1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px 0px 0px 770px;
+    padding-top: 30px;
+    position: relative;
+  }
+  .my-h2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: light;
+    font-weight: 300;
+    margin: 0px 0px 0px 770px;
+    width: 389px;
+    height: 115px;
+    position: relatvie;
+  }
+  .body-1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: light;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+  }
+  .body-2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: light;
+    font-weight: 300;
+    position: relative;
+    width: 160px;
+    height: 44px;
+    padding-top: 0px;
+  }
+  img{
+
+    float: left;
+    width: 675px;
+    height: 475px;
+    padding-left: 55px;
+    position: relative;
+  }
