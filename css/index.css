@@ -230,19 +230,57 @@ margin-top: 46%;
 
 }
 
+#classroom-container {
+  width: 60%;
+  position: absolute;
+  margin-top: 8%;
+}
+
+#classroom {
+  display: flex;
+  height: 15%;
+  width: auto;
+}
+
+#classroom-img {
+  margin-left: 25%;
+  height: 15%;
+}
+
+#classroom-img img {
+  width: 100%;
+}
+
+.reviews {
+  font-weight: lighter;
+  margin-top: 10%;
+  margin-left: 70%;
+  width: 23%;
+}
+
+.reviews p {
+  padding: 5%;
+}
+
+
 #multi{
   text-align: center;
-  positon: absolute;
-  margin-top: 23rem;
+  margin-top: 150px;
   width: 100%;
   right: 100px;
 }
+#multi #multi-p{
+  font-weight: 300;
+  text-align: left;
+  width: 70%;
+}
+
 #multi .card{
   background-color: #F4F4F4;
   border-radius: 5px;
 }
 #multi .card img{
-  max-width: 16rem;
+  max-width: 150px;
   padding: 10px;
 }
 
@@ -451,25 +489,52 @@ footer {
   }
 
   .byline {
-    position: relative;
-    text-align: left;
     font-size: 10pt;
-    font-weight: lighter;
     margin-left: 85%;
     margin-top: -4%;
   }
 
   .author-itl {
-    position: relative;
-    text-align: left;
-    font-style: italic;
     font-size: 10pt;
     font-weight: 100;
     margin-left: 87%;
     margin-top: -2%;
   }
 
+  #steam {
+    display: flex;
+    margin-top: 8%;
+  }
 
+  #steam-img{
+    position: absolute;
+    height: 20%;
+    width: 50%;
+    margin-left: 10%;
+  }
+
+  #steam-img img {
+    width: 100%;
+  }
+
+  #steam-header {
+    font-weight: ;
+    margin-left: 70%;
+    text-align: right;
+    width: 25%;
+    padding-right: 15px;
+    border-right: 2px solid #166B19;
+  }
+
+  #steam-text {
+    font-weight: lighter;
+    margin-left: 70%;
+    text-align: right;
+    width: 25%;
+    padding-right: 15px;
+    border-right: 2px solid #166B19;
+
+  }
 
 
 
