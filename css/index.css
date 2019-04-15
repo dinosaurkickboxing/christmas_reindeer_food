@@ -189,8 +189,12 @@ margin-top: 46%;
 
 }
 
-#steam-container {
+#steam-cont{
   display: flex;
+}
+
+#steam-container {
+  flex: 3;
   height: 20%;
   width: 100%;
 }
@@ -201,9 +205,9 @@ margin-top: 46%;
 }
 
 #steam-img{
-  position: absolute;
+
   height: 20%;
-  width: 50%;
+  width: 100%;
   margin-left: 10%;
 }
 
@@ -211,20 +215,20 @@ margin-top: 46%;
   width: 100%;
 }
 
+#steam-new {
+  flex: 1;
+}
+
 #steam-header {
   font-weight: ;
-  margin-left: 70%;
   text-align: right;
-  width: 25%;
   padding-right: 15px;
   border-right: 2px solid #166B19;
 }
 
 #steam-text {
   font-weight: lighter;
-  margin-left: 70%;
   text-align: right;
-  width: 25%;
   padding-right: 15px;
   border-right: 2px solid #166B19;
 
@@ -496,7 +500,11 @@ footer {
     margin-top: -2%;
   }
 
-  #steam {
+#steam-cont{
+  display: block;
+}
+
+  /*#steam {
     display: flex;
     margin-top: 8%;
   }
@@ -529,7 +537,7 @@ footer {
     padding-right: 15px;
     border-right: 2px solid #166B19;
 
-  }
+  }*/
 
 
 
