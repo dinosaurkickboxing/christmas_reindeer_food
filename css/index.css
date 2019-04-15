@@ -363,3 +363,114 @@ footer {
 #candy-img img {
   width: 100%;
 }
+
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+
+  nav {
+    display: flex;
+    width: auto;
+    height: 10%;
+    align-items: center;
+    margin-left: 40%;
+    background-color: #D6F3DC;
+    border-radius: 50px 0px 0px 50px;
+    }
+
+  nav ul {
+    display: flex;
+    width: 80%;
+    font-size: 16px;
+    display: flex;
+  }
+
+  nav li {
+    list-style: none;
+    font-size: 10pt;
+    width: 35%;
+    color: #166B19;
+  }
+
+  a {
+    text-decoration: none;
+    color: #166B19;
+  }
+
+  #extra {
+    margin-left: 46%;
+    font-size: 16pt;
+    margin-top: -2%;
+  }
+
+  #extra-p {
+    margin-left: 47%;
+    font-size: 10pt;
+    margin-top: -3.5%;
+    width: 10%;
+  }
+
+  #grBox {
+    height: 3.5%;
+    width: 23%;
+    margin-left: 31.5%;
+    margin-top: 25.5%;
+  }
+
+  #books {
+    margin-left: 32%;
+    padding-top: 20%;
+    font-size: 16pt;
+  }
+
+  #books-p {
+    position: absolute;
+    margin-left: 40.5%;
+    font-size: 10pt;
+    padding-top: 28%;
+    font-weight: lighter;
+    width: 10%;
+  }
+
+  #redBox {
+  height: 42%;
+  width: 100%;
+  margin-top: 49%;
+  }
+
+  .red-text {
+    position:relative;
+    margin-top: 54%;
+    text-align: left;
+    margin-left: 15%;
+    width: 65%;
+    font-size: 12pt;
+  }
+
+  .red-text span {
+    font-size: 15pt;
+  }
+
+  .byline {
+    position: relative;
+    text-align: left;
+    font-size: 10pt;
+    font-weight: lighter;
+    margin-left: 85%;
+    margin-top: -4%;
+  }
+
+  .author-itl {
+    position: relative;
+    text-align: left;
+    font-style: italic;
+    font-size: 10pt;
+    font-weight: 100;
+    margin-left: 87%;
+    margin-top: -2%;
+  }
+
+
+
+
+
+}
