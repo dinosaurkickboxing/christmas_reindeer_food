@@ -34,6 +34,7 @@ nav {
   width: auto;
   height: 20%;
   align-items: center;
+  margin-top: 20px;
   margin-left: 50%;
   background-color: #D6F3DC;
   border-radius: 50px 0px 0px 50px;
@@ -215,6 +216,8 @@ margin-top: 46%;
   margin-left: 70%;
   text-align: right;
   width: 25%;
+  padding-right: 15px;
+  border-right: 2px solid #166B19;
 }
 
 #steam-text {
@@ -222,96 +225,46 @@ margin-top: 46%;
   margin-left: 70%;
   text-align: right;
   width: 25%;
+  padding-right: 15px;
+  border-right: 2px solid #166B19;
 
 }
 
-/*.vl {
-  border-left: 5px solid #166B19;
-  height: 10%;
-  margin-left: 93%;
-  position: relative;
-
-}*/
-
-#classroom-container {
-  width: 60%;
-  position: absolute;
-  margin-top: 8%;
-}
-
-#classroom {
-  display: flex;
-  height: 15%;
-  width: auto;
-}
-
-#classroom-img {
-  margin-left: 25%;
-  height: 15%;
-}
-
-#classroom-img img {
-  width: 100%;
-}
-
-.reviews {
-  font-weight: lighter;
-  margin-top: 10%;
-  margin-left: 70%;
-  width: 23%;
-}
-
-.reviews p {
-  padding: 5%;
-}
-
-/*.hl {
-  border-top: 10px;
-  position: absolute;
-}*/
-
-h2 {
-  font-size: 20pt;
+#multi{
   text-align: center;
-  margin-top: 7%;
+  positon: absolute;
+  margin-top: 23rem;
+  width: 100%;
+  right: 100px;
+}
+#multi .card{
+  background-color: #F4F4F4;
+  border-radius: 5px;
+}
+#multi .card img{
+  max-width: 16rem;
+  padding: 10px;
 }
 
-#multiculturalism {
+#multi .card-text{
+  font-weight: 300;
+  padding: 0px 10px 10px 10px;
+}
+#multi .card-text h5, #multi .card-text p, {
+  line-height: 20px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5{
+  width: 200px;
+  display: inline-block;
+}
+
+.card{
+  width: 175px;
   display: flex;
-  flex-direction: row;
-
-}
-
-.multi-images {
-  height: 40%;
-  width: auto%;
-}
-
-#multi-2 {
-  height: 15%;
-  width: 15%;
-  transform: rotate(90deg);
-  margin-top: 5%;
-}
-
-#multi-2 img {
-    width: 100%;
-}
-
-#multi-5 {
-  height: 15%;
-  width: 12%;
-}
-
-#multi-5 img {
-  width:100%;
-}
-
-#multi-p {
-  text-align: left;
-  font-weight: lighter;
-  width: 50%;
-  margin-left: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 15px;
 }
 
 
