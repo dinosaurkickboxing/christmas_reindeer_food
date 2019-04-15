@@ -72,9 +72,6 @@ margin-top: 70px;
 }
 
 
-h2 {padding-left:  50px;
-margin-bottom: ;}
-
 
 .bookTextContainer {
   max-width: 750px;
@@ -90,7 +87,7 @@ margin-bottom: ;}
 margin-top: 30px;
 }
 
-.bookImage {background-color: pink;
+.bookImage {background-color: ;
   width: 268px;
   height: 279px;
 }
@@ -152,14 +149,69 @@ padding-top: 25px;}
 background-color: ;
 margin-top: 25px; }
 
+.otherProducts {display: flex;
+flex-direction: row;
+background-color: ;
+margin-top: 30px;
+}
+
+
+h2 {padding-left:  120px;
+margin-bottom: ;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+letter-spacing: 0.4px;
+  }
+
+
+.dividingLine {
+  width: 1000px;
+height: 0px;
+border-top: 1.6px solid #000000;
+background-color: #000000;
+align-self: center;
+margin-left: 25px;
+}
+
 .main2 {display: flex;
 flex-direction: column;
-background: red;}
+background: ;}
 
 .productImage {background-color: ;
   width: 238px;
   height: 235px;
+  margin-bottom: 15px;
 }
+.productText {background-color: ;
+border-left: 3px solid #C12627;
+padding-left: 5px;
+}
+
+.purchaseButton {
+  background-color: #3E8041;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border: 0px;
+  padding: 8px 13px 8px 13px;
+  margin-top: 15px;
+  border-radius: 5px;
+  letter-spacing: 0.9px;
+}
+
+.productName {
+      font-size: 20px;
+      font-weight: 600;
+      padding-left: 5px;
+}
+
+
+.productPrice {
+    padding-left: 5px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 
 .productImage img {width: 238px;
 height: 235px;
@@ -170,15 +222,21 @@ height: 235px;
 .productsContainer {}
 
 .productGrid {display: grid;
-background-color: pink;
+background-color: ;
 grid-template-columns: auto auto auto;
-background-color: #2196F3;
-padding: 10px;}
+background-color: ;
+padding: 10px;
+justify-content: center;
+margin-top: 60px;
+}
 
 .gridItem {
     background-color: ;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: ;
     padding: 5px;
-    font-size: 30px;
-    text-align: center;
-  width: 238px; }
+
+    margin-right: 90px;
+    margin-bottom: 50px;
+    text-align: left;
+  width: 238px;
+font-family: 'Roboto', sans-serif;}
