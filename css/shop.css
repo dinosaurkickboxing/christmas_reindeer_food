@@ -1,0 +1,184 @@
+/*ABOUT CSS*/
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+#logo-container {
+  display: flex;
+  height: 20%;
+  width: 20%;
+}
+
+#logo {
+  display: flex;
+  height: 20%;
+
+}
+
+#logo-image {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+}
+
+#logo-image img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  width: auto;
+  height: 20%;
+  align-items: center;
+  margin-left: 50%;
+  background-color: #D6F3DC;
+  /*border-radius: 30%;*/
+  }
+
+nav ul {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  font-size: 12pt;
+  width: 40%;
+  color: #166B19;
+}
+
+a {
+  text-decoration: none;
+  color: #166B19;
+}
+
+body {border: ;}
+
+main {background-color: ;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 70px;
+
+}
+
+
+h2 {padding-left:  50px;
+margin-bottom: ;}
+
+
+.bookTextContainer {
+  max-width: 750px;
+  background-color:;
+  border:;
+  height: 279px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+}
+
+.bookContainer {background-color: ;
+  display: flex;
+margin-top: 30px;
+}
+
+.bookImage {background-color: pink;
+  width: 268px;
+  height: 279px;
+}
+
+.bookImage  img {width: 268px;
+height: 279px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+.bookName {font-family: 'Roboto', sans-serif;
+font-weight: 700;
+background-color: ;
+margin: 0px;
+max-width: 490px;
+font-size: 25px;
+
+
+}
+
+.bookPrice {font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 18px;
+background-color: ;
+flex-grow: 8;
+padding-top: 5px;
+text-align: left;
+padding-left: 25px;
+
+}
+
+.row1 {display: flex;}
+
+.bookSummary {font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 16px;
+padding-top: -50px;
+line-height: 1.4;
+background-color: ;
+margin-top: 10px;}
+
+
+.bookSummary p {font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 15px;
+margin-top: ;
+
+}
+
+.purchaseBook {font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 15px;
+background-color: ;
+max-width: 200px;
+margin-right: 40px;
+  color: #166B19;
+padding-top: 25px;}
+
+.row2 {display: flex;
+background-color: ;
+margin-top: 25px; }
+
+.main2 {display: flex;
+flex-direction: column;
+background: red;}
+
+.productImage {background-color: ;
+  width: 238px;
+  height: 235px;
+}
+
+.productImage img {width: 238px;
+height: 235px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
+}
+
+
+.productsContainer {}
+
+.productGrid {display: grid;
+background-color: pink;
+grid-template-columns: auto auto auto;
+background-color: #2196F3;
+padding: 10px;}
+
+.gridItem {
+    background-color: ;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+  width: 238px; }

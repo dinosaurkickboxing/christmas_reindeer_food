@@ -148,7 +148,7 @@ a {
 
 #redBox {
 background-color: #FFDBDB;
-height: 30%;
+height: 35%;
 width: 100%;
 display: flex;
 position: absolute;
@@ -160,9 +160,33 @@ margin-top: 46%;
   margin-top: 50%;
   text-align: left;
   margin-left: 15%;
-  width: 70%;
+  width: 65%;
   font-size: 14pt;
   font-weight: lighter;
+}
+
+.red-text span {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.byline {
+  position: relative;
+  text-align: left;
+  font-size: 12pt;
+  font-weight: lighter;
+  margin-left: 85%;
+}
+
+.author-itl {
+  position: relative;
+  text-align: left;
+  font-style: italic;
+  font-size: 12pt;
+  font-weight: 100;
+  margin-left: 87%;
+  margin-top: -1%;
+
 }
 
 #steam-container {
@@ -173,7 +197,7 @@ margin-top: 46%;
 
 #steam {
   display: flex;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 #steam-img{
@@ -245,5 +269,97 @@ margin-top: 46%;
 
 
 footer {
+  text-align: center;
+  flex-direction: row;
+  background-color: #D6F3DC;
+  width: 100%;
+  padding: 5%;
+  margin-top: 5%;
+}
 
+#up-to-date {
+  font-weight: lighter;
+  font-size: 12pt;
+  width: 22%;
+  margin-left: 15%;
+}
+
+#up-to-date span {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#up-to-date form input {
+  font-weight: lighter;
+  color: grey;
+  background: white;
+  padding: 2%;
+  text-align: left;
+  width: 80%;
+  font-size: 12pt;
+}
+
+#up-to-date input[type=submit] {
+  width: 85%;
+  margin-top: 1%;
+  background: #166B19;
+  border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .5pt;
+}
+
+#donate-foot {
+  font-weight: lighter;
+  font-size: 12pt;
+  width: 22%;
+  margin-left: 55%;
+  margin-top: -14%;
+}
+
+#donate-foot span {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#donate-foot form input {
+  font-weight: lighter;
+  color: grey;
+  background: white;
+  padding: 2%;
+  text-align: left;
+  width: 80%;
+  font-size: 12pt;
+}
+
+#donate-foot input[type=submit] {
+  width: 85%;
+  margin-top: 1%;
+  background: #166B19;
+  border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .5pt;
+}
+
+#candy-container {
+  width: 100%;
+  height: 8%;
+  margin-top: 2%;
+}
+
+#candy {
+  height: 8%;
+}
+
+#candy-img {
+  height: 8%;
+}
+
+#candy-img img {
+  width: 100%;
 }
