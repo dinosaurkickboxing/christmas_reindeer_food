@@ -67,7 +67,7 @@ main {background-color: ;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 70px;
+margin-top: 90px;
 
 }
 
@@ -75,7 +75,7 @@ margin-top: 70px;
 
 .bookTextContainer {
   max-width: 750px;
-  background-color:;
+  background-color: ;
   border:;
   height: 279px;
   margin-bottom: 80px;
@@ -84,16 +84,17 @@ margin-top: 70px;
 
 .bookContainer {background-color: ;
   display: flex;
-margin-top: 30px;
+margin-top: ;
+
 }
 
 .bookImage {background-color: ;
-  width: 268px;
-  height: 279px;
+  width: 263px;
+height: 271px;
 }
 
-.bookImage  img {width: 268px;
-height: 279px;
+.bookImage  img {width: 263px;
+height: 271px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
 }
 
@@ -122,7 +123,7 @@ padding-left: 25px;
 
 .bookSummary {font-family: 'Roboto', sans-serif;
 font-weight: 300;
-font-size: 16px;
+font-size: 15px;
 padding-top: -50px;
 line-height: 1.4;
 background-color: ;
@@ -143,7 +144,7 @@ background-color: ;
 max-width: 200px;
 margin-right: 40px;
   color: #166B19;
-padding-top: 25px;}
+padding-top: ;}
 
 .row2 {display: flex;
 background-color: ;
@@ -152,7 +153,7 @@ margin-top: 25px; }
 .otherProducts {display: flex;
 flex-direction: row;
 background-color: ;
-margin-top: 30px;
+margin-top: 10px;
 }
 
 
@@ -240,3 +241,27 @@ margin-top: 60px;
     text-align: left;
   width: 238px;
 font-family: 'Roboto', sans-serif;}
+
+@media (max-width: 600px) {
+
+  #logo-container {
+    display: flex
+  }
+
+  #logo {
+    display: flex;
+    height: 50%;
+
+  }
+
+  #logo-image {
+    height: 50PX;
+    width: 50%;
+    position: absolute;
+  }
+
+  #logo-image img {
+    width: 100%;
+  }
+
+}
