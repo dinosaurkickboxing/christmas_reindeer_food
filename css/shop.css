@@ -1,6 +1,5 @@
 /*ABOUT CSS*/
 
-
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -37,9 +36,10 @@ nav {
   width: auto;
   height: 20%;
   align-items: center;
+  margin-top: 20px;
   margin-left: 50%;
   background-color: #D6F3DC;
-  /*border-radius: 30%;*/
+  border-radius: 50px 0px 0px 50px;
   }
 
 nav ul {
@@ -68,7 +68,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 90px;
-
 }
 
 
@@ -85,7 +84,6 @@ margin-top: 90px;
 .bookContainer {background-color: ;
   display: flex;
 margin-top: ;
-
 }
 
 .bookImage {background-color: ;
@@ -244,24 +242,198 @@ font-family: 'Roboto', sans-serif;}
 
 @media (max-width: 600px) {
 
-  #logo-container {
-    display: flex
-  }
 
-  #logo {
-    display: flex;
-    height: 50%;
+                  header {
+                    margin-bottom: 10px;
 
-  }
+                  }
 
-  #logo-image {
-    height: 50PX;
-    width: 50%;
-    position: absolute;
-  }
+                  #logo {
+                    display: flex;
+                    height: 50%;
 
-  #logo-image img {
-    width: 100%;
-  }
+                  }
 
-}
+                  #logo-image {
+                    max-height: 100px;
+                    width: 50%;
+                    position: absolute;
+                  }
+
+                  #logo-image img {
+                    width: 100%;
+                  }
+
+                  main {
+                  margin-top: 35px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  }
+
+                  .bookContainer {background-color: ;
+                    display: flex;
+                    flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  }
+
+
+                  .bookTextContainer {
+                    width: 80%;
+                    background-color: ;
+                    border:;
+                    height: 100%;
+                    margin-left: 0px;
+                  margin-top: 20px;}
+
+                  .row1 {display: flex;
+                  flex-direction: column;
+                  background-color: ;
+                }
+
+                  .bookImage {background-color: ;
+                    width: 271px;
+                      height: 285px;
+                  }
+
+                  .bookImage  img {width: 271px;
+                    height: 285px;
+                    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
+                  }
+
+                  .bookName {
+                  text-align: center;
+                  }
+
+                  .bookPrice {
+                    text-align: center;
+                    background-color: ;
+                    padding: 0px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                  }
+
+                  .bookSummary {
+                  font-size: 16px;
+                  padding-top: -50px;
+                  margin-top: 10px;}
+
+                  .row2 {flex-direction: column;
+                  background-color: ;
+                padding: 0px;}
+
+                  .purchaseBook {
+                    margin-bottom: 20px;
+                    font-size: 17px;
+                  }
+
+                  .main2 {display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  background: ;}
+
+                  .dividingLine {
+                    width: 150px;
+                  height: 0px;
+                  border-top: 1.6px solid #000000;
+                  background-color: #000000;
+                  align-self: center;
+                  margin-left: 25px;
+                  }
+
+                  h2 {padding-left: 15px;}
+
+                  .main2 {margin-top: 35px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                background-color: ;
+                height: 100%;}
+
+                      .productsContainer {background-color: ;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 0px;
+                        margin-top: 15px;
+                      }
+
+                  .productGrid {display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;;
+                    background-color: ;
+                    margin-right: 0px;
+                    margin-top: 0px;
+
+                  }
+
+                  .gridItem {
+                      background-color: ;
+                      border: ;
+                      padding: 5px;
+                      margin-left: 0px;
+                      margin-right: 0px;
+                      margin-bottom: 30px;
+                      text-align: left;
+                  font-family: 'Roboto', sans-serif;}
+
+                  .productImage {background-color: ;
+                    width: 238px;
+                    height: 235px;
+                    margin-bottom: 15px;
+                  }
+                  .productText {background-color: ;
+                  border-left: 3px solid #C12627;
+                  padding-left: 5px;
+                  }
+
+                  .purchaseButton {
+                    background-color: #3E8041;
+                    font-family: 'Roboto', sans-serif;
+                    color: white;
+                    border: 0px;
+                    padding: 10px 15px 10px 15px;
+                    margin-top: 25px;
+                    border-radius: 5px;
+                    letter-spacing: 0.9px;
+                    font-size: 17px;
+                  }
+
+                  .productName {
+                        font-size: 25px;
+                        font-weight: 600;
+                        padding-left: 5px;
+                  }
+
+
+                  .productPrice {
+                      padding-left: 5px;
+                      margin-top: 10px;
+                      font-weight: 300;
+                      font-size: 23px;
+                  }
+
+
+                  .productImage img {width: 238px;
+                  height: 235px;
+                    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
+                  }
+
+
+                  .productGrid {
+                    background-color: ;
+
+                  }
+
+
+
+
+
+        }
