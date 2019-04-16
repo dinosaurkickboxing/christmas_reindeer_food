@@ -236,7 +236,7 @@ margin-top: 46%;
 
 #classroom-container {
   width: 60%;
-  position: absolute;
+  display: flex;
   margin-top: 8%;
 }
 
@@ -409,27 +409,45 @@ footer {
 /*MOBILE*/
 @media only screen and (max-width: 600px) {
 
-  nav {
-    display: flex;
-    width: auto;
+  #logo-container {
+    flex: block;
     height: 10%;
+    width: 30%;
+  }
+
+  #logo {
+    height: 10%;
+  }
+
+  #logo-image {
+    display: block;
+    height: 10%;
+    width: 35%;
     align-items: center;
-    margin-left: 40%;
+  }
+
+
+  nav {
+    margin-top: 15%;
+    margin-left: 0%;
+    display: block;
+    width: 100%;
+    height: 5%;
+    align-items: center;
     background-color: #D6F3DC;
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 25px 0px 0px 25px;
     }
 
   nav ul {
     display: flex;
-    width: 80%;
+    width: 100%;
     font-size: 16px;
-    display: flex;
   }
 
   nav li {
     list-style: none;
     font-size: 10pt;
-    width: 35%;
+    width: 25%;
     color: #166B19;
   }
 
@@ -438,50 +456,69 @@ footer {
     color: #166B19;
   }
 
+  #crf1-container {
+    display: block;
+    height: 40%;
+    width: 40%;
+  }
+
+  #crf1 {
+    margin: 5% 0% 45% 65%;
+  }
+
+  #crf2-container {
+    display: block;
+    height: 40%;
+    width: 40%;
+    margin: 10% 0% 0% 40%;
+  }
+
+  #crf2 {
+    margin: 100% 0% 0% 0%;
+  }
+
   #extra {
-    margin-left: 46%;
-    font-size: 16pt;
-    margin-top: -2%;
+    margin: 40% 0% 0% 32%;
+    font-size: 14pt;
   }
 
   #extra-p {
-    margin-left: 47%;
     font-size: 10pt;
     margin-top: -3.5%;
-    width: 10%;
+    width: 25%;
+    margin: 39% 0% 0% 30%;
   }
 
   #grBox {
     height: 3.5%;
-    width: 23%;
+    width: 24%;
     margin-left: 31.5%;
-    margin-top: 25.5%;
+    margin-top: -14%;
   }
 
   #books {
-    margin-left: 32%;
-    padding-top: 20%;
-    font-size: 16pt;
+    margin: -14% 0% 0% 32%;
+    padding-top: 0%;
+    font-size: 14pt;
   }
 
   #books-p {
-    position: absolute;
-    margin-left: 40.5%;
+    position: relative;
+    margin: -12% 0% 0% 35%;
     font-size: 10pt;
-    padding-top: 28%;
-    font-weight: lighter;
-    width: 10%;
+    padding-top: 0%;
+    width: 20%;
   }
 
   #redBox {
-  height: 42%;
+  height: 65%;
   width: 100%;
-  margin-top: 49%;
+  margin-top: 56%;
   }
 
   .red-text {
     position:relative;
-    margin-top: 54%;
+    margin-top: 65%;
     text-align: left;
     margin-left: 15%;
     width: 65%;
@@ -489,24 +526,25 @@ footer {
   }
 
   .red-text span {
-    font-size: 15pt;
+    font-size: 14pt;
   }
 
   .byline {
     font-size: 10pt;
     margin-left: 85%;
-    margin-top: -4%;
+    margin-top: -5%;
   }
 
   .author-itl {
     font-size: 10pt;
     font-weight: 100;
     margin-left: 87%;
-    margin-top: -2%;
+    margin-top: -3%;
   }
 
 #steam-cont{
   display: block;
+  margin-top: 15%;
 }
 
   /*#steam {
@@ -543,6 +581,22 @@ footer {
     border-right: 2px solid #166B19;
 
   }*/
+
+  #classroom-container {
+    width: 60%;
+    margin-top: 8%;
+  }
+
+  #classroom {
+    display: block;
+    height: 70%;
+  }
+
+  #classroom-img {
+    margin-left: 25%;
+    height: 50%;
+  }
+
 
 
 
