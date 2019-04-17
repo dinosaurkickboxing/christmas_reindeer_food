@@ -9,14 +9,11 @@ header {
 
 #logo-container {
   display: flex;
-  height: 20%;
-  width: 20%;
 }
 
 #logo {
-  display: flex;
+  flex: 2;
   height: 20%;
-
 }
 
 #logo-image {
@@ -59,15 +56,19 @@ a {
   color: #166B19;
 }
 
-#crf1-container {
+#crf1-new {
   display: flex;
+}
+
+#crf1-container {
+  flex: 1;
   height: 40%;
   width: 40%;
 }
 
 #crf1 {
   display: flex;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 #crf1-img{
@@ -80,8 +81,12 @@ a {
   width: 100%;
 }
 
-#crf2-container {
+#crf2-new {
   display: flex;
+}
+
+
+#crf2-container {
   height: 40%;
   width: 40%;
 }
@@ -101,33 +106,8 @@ a {
   width: 100%;
 }
 
-#extra {
-  position: absolute;
-  margin-left: 55%;
-  font-size: 20pt;
-  /*padding-right: .5%;
-  padding-left: .5%;
-  padding-bottom: .5%;*/
-  background-color: #99E2A9;
-  background-position: ;
-}
-
-#extra-p {
-  position: absolute;
-  margin-left: 48%;
-  font-size: 14pt;
-  padding-top: 4%;
-  font-weight: lighter;
-  width: 15%;
-}
-
-#grBox {
-  background-color: #99E2A9;
-  position: absolute;
-  height: 5%;
-  width: 11.5%;
-  margin-left: 35%;
-  margin-top: 27.5%;
+#books-new{
+  display: flex;
 }
 
 #books {
@@ -146,9 +126,39 @@ a {
   width: 10%;
 }
 
+#grBox {
+  background-color: #99E2A9;
+  position: absolute;
+  height: 5%;
+  width: 11.5%;
+  margin-left: 35%;
+  margin-top: 27.5%;
+}
+
+#extra-new{
+  display: flex;
+}
+
+#extra {
+  position: absolute;
+  margin-left: 55%;
+  font-size: 20pt;
+  background-color: #99E2A9;
+  background-position: ;
+}
+
+#extra-p {
+  position: absolute;
+  margin-left: 49%;
+  font-size: 14pt;
+  padding-top: 4%;
+  font-weight: lighter;
+  width: 12%;
+}
+
 #redBox {
 background-color: #FFDBDB;
-height: 35%;
+height: 42%;
 width: 100%;
 display: flex;
 position: absolute;
@@ -205,7 +215,6 @@ margin-top: 46%;
 }
 
 #steam-img{
-
   height: 20%;
   width: 100%;
   margin-left: 10%;
@@ -220,7 +229,7 @@ margin-top: 46%;
 }
 
 #steam-header {
-  font-weight: ;
+  margin-top: 40%;
   text-align: right;
   padding-right: 15px;
   border-right: 2px solid #166B19;
@@ -231,23 +240,23 @@ margin-top: 46%;
   text-align: right;
   padding-right: 15px;
   border-right: 2px solid #166B19;
+}
 
+#classroom-new {
+  display: flex;
 }
 
 #classroom-container {
-  width: 60%;
-  display: flex;
   margin-top: 8%;
+  flex: 1;
+  margin-left: 10%;
 }
 
 #classroom {
-  display: flex;
-  height: 15%;
-  width: auto;
+  width: 60%;
 }
 
 #classroom-img {
-  margin-left: 25%;
   height: 15%;
 }
 
@@ -255,11 +264,16 @@ margin-top: 46%;
   width: 100%;
 }
 
+#reviews-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .reviews {
+  flex: 1;
   font-weight: lighter;
-  margin-top: 10%;
-  margin-left: 70%;
   width: 23%;
+  margin: -40% 0% 0% 70%;
 }
 
 .reviews p {
@@ -269,14 +283,18 @@ margin-top: 46%;
 
 #multi{
   text-align: center;
-  margin-top: 150px;
+  margin-top: 8%;
   width: 100%;
-  right: 100px;
+
 }
-#multi #multi-p{
+
+#multi-p{
   font-weight: 300;
   text-align: left;
-  width: 70%;
+  width: 60%;
+  margin: 0% 0% 0% 16%;
+  border-left: 2px solid #166B19;
+  padding-left: 3%;
 }
 
 #multi .card{
@@ -309,7 +327,6 @@ margin-top: 46%;
   margin: 15px;
 }
 
-
 footer {
   text-align: center;
   flex-direction: row;
@@ -319,11 +336,15 @@ footer {
   margin-top: 5%;
 }
 
+#footer-container {
+  display: flex;
+  width: 50%;
+}
+
 #up-to-date {
   font-weight: lighter;
   font-size: 12pt;
-  width: 22%;
-  margin-left: 15%;
+  flex: 2;
 }
 
 #up-to-date span {
@@ -356,9 +377,7 @@ footer {
 #donate-foot {
   font-weight: lighter;
   font-size: 12pt;
-  width: 22%;
-  margin-left: 55%;
-  margin-top: -14%;
+  flex: 2;
 }
 
 #donate-foot span {
@@ -410,9 +429,10 @@ footer {
 @media only screen and (max-width: 600px) {
 
   #logo-container {
-    flex: block;
+    display: flex;
     height: 10%;
     width: 30%;
+    margin-left: 28%;
   }
 
   #logo {
@@ -456,8 +476,11 @@ footer {
     color: #166B19;
   }
 
-  #crf1-container {
+  #crf1-new {
     display: block;
+  }
+
+  #crf1-container {
     height: 40%;
     width: 40%;
   }
@@ -466,19 +489,46 @@ footer {
     margin: 5% 0% 45% 65%;
   }
 
-  #crf2-container {
+#crf2-new {
     display: block;
+  }
+
+  #crf2-container {
+    flex: 1;
     height: 40%;
     width: 40%;
-    margin: 10% 0% 0% 40%;
+    margin: 40% 0% 0% 27%;
   }
 
   #crf2 {
     margin: 100% 0% 0% 0%;
   }
 
+  #books-new {
+    display:block;
+  }
+
+  #books {
+    margin: -5.5% 0% 0% 32%;
+    padding-top: 0%;
+    font-size: 14pt;
+    flex: 1;
+  }
+
+  #books-p {
+    position: relative;
+    margin: -12% 0% 00% 35%;
+    font-size: 10pt;
+    padding-top: 0%;
+    width: 20%;
+  }
+
+#extra-new{
+  display: block;
+}
+
   #extra {
-    margin: 40% 0% 0% 32%;
+    margin: 37% 0% 0% 35%;
     font-size: 14pt;
   }
 
@@ -496,29 +546,15 @@ footer {
     margin-top: -14%;
   }
 
-  #books {
-    margin: -14% 0% 0% 32%;
-    padding-top: 0%;
-    font-size: 14pt;
-  }
-
-  #books-p {
-    position: relative;
-    margin: -12% 0% 0% 35%;
-    font-size: 10pt;
-    padding-top: 0%;
-    width: 20%;
-  }
-
   #redBox {
   height: 65%;
   width: 100%;
-  margin-top: 56%;
+  margin-top: 65%;
   }
 
   .red-text {
     position:relative;
-    margin-top: 65%;
+    margin-top: 75%;
     text-align: left;
     margin-left: 15%;
     width: 65%;
@@ -547,57 +583,82 @@ footer {
   margin-top: 15%;
 }
 
-  /*#steam {
-    display: flex;
-    margin-top: 8%;
+#steam-container {
+  flex: 3;
+  height: 20%;
+  width: 100%;
+}
+
+#steam {
+  display: block;
+  margin-top: 8%;
+}
+
+#steam-img{
+  margin-left: 0%;
+}
+
+#steam-new {
+  flex: 1;
+}
+
+#steam-header {
+  margin-top: 0%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 2px solid #166B19;
+}
+
+#steam-text {
+  padding-right: 15px;
+  border-right: 2px solid #166B19;
+}
+
+#classroom-new {
+  display: block;
+}
+
+#classroom-container {
+  flex: 1;
+  width: auto;
+  margin-top: 20%;
   }
 
-  #steam-img{
-    position: absolute;
-    height: 20%;
-    width: 50%;
-    margin-left: 10%;
+#classroom {
+  height: auto;
+  width: 95%;
   }
 
-  #steam-img img {
-    width: 100%;
+#classroom-img {
+  margin-left: 0%;
+  height: auto;
   }
 
-  #steam-header {
-    font-weight: ;
-    margin-left: 70%;
-    text-align: right;
-    width: 25%;
-    padding-right: 15px;
-    border-right: 2px solid #166B19;
-  }
-
-  #steam-text {
-    font-weight: lighter;
-    margin-left: 70%;
-    text-align: right;
-    width: 25%;
-    padding-right: 15px;
-    border-right: 2px solid #166B19;
-
-  }*/
-
-  #classroom-container {
-    width: 60%;
-    margin-top: 8%;
-  }
-
-  #classroom {
+  #reviews-container {
     display: block;
-    height: 70%;
+    flex-direction: row;
   }
 
-  #classroom-img {
-    margin-left: 25%;
-    height: 50%;
+  .reviews {
+    flex: 3;
+    width: 75%;
+    margin: 0% 0% 0% 20%;
   }
 
+  .reviews p {
+    padding: 5%;
+  }
 
+#multi-p {
+  margin: 0% 0% 0% 16%;
+  border-left: 2px solid #166B19;
+  padding-left: 5%;
+}
+
+  #footer-container {
+    display: block;
+    width: 80%;
+  }
 
 
 }
