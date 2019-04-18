@@ -95,8 +95,7 @@ height: 271px;
 .bookImage  img {width: 263px;
 height: 271px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
-  border: 1.5px solid rgba(22, 107, 25, 0.1 );
-
+border: 3px solid rgba(22, 107, 25, 0.12);
 }
 
 .bookName {font-family: 'Roboto', sans-serif;
@@ -137,6 +136,10 @@ font-size: 15px;
 margin-top: ;
 
 }
+
+
+
+#myBtn {display: none;}
 
 .purchaseBook {font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -267,6 +270,36 @@ font-family: 'Roboto', sans-serif;}
                     width: 100%;
                   }
 
+                  nav {
+                    display: flex;
+                    width: auto;
+                    height: 20%;
+                    align-items: center;
+                    margin-top: 20px;
+                    margin-left: 50%;
+                    background-color: #D6F3DC;
+                    border-radius: 50px 0px 0px 50px;
+                    }
+
+                  nav ul {
+                    display: flex;
+                    width: 100%;
+                    font-size: 20px;
+                    display: flex;
+                  }
+
+                  nav li {
+                    list-style: none;
+                    font-size: 12pt;
+                    width: 40%;
+                    color: #166B19;
+                  }
+
+                  a {
+                    text-decoration: none;
+                    color: #166B19;
+                  }
+
                   main {
                   margin-top: 35px;
                   display: flex;
@@ -291,9 +324,9 @@ font-family: 'Roboto', sans-serif;}
                     height: 100%;
                     margin-left: 0px;
                   margin-top: 20px;
-                margin-bottom: 60px;
+                margin-bottom: 45px;
               border-bottom: 1.5px dashed rgba(193, 38, 39, 0.32);
-            padding-bottom:60px;}
+            padding-bottom:30px;}
 
 
                   .row1 {display: flex;
@@ -302,12 +335,12 @@ font-family: 'Roboto', sans-serif;}
                 }
 
                   .bookImage {background-color: ;
-                    width: 271px;
-                      height: 285px;
+                    width: 225px;
+                    height: 236px;
                   }
 
-                  .bookImage  img {width: 271px;
-                    height: 285px;
+                  .bookImage  img {width: 225px;
+                  height: 236px;
                     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
                   }
 
@@ -331,10 +364,25 @@ font-family: 'Roboto', sans-serif;}
                   padding-top: -50px;
                   margin-top: 10px;}
 
+                  #more {display: none;}
+
+                  #myBtn {background-color: white;
+                  border: none;
+                margin-left: 5px;
+                margin-right: 0px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                display: inline;
+              }
+
+              #myBtn button {
+                margin: 0px;
+              }
+
                   .row2 {flex-direction: column;
                   background-color: ;
                 padding: 0px;
-              margin-top: 0px;}
+              margin-top: -10px;}
 
                   .purchaseBook {
                     margin-top : 20px;
@@ -351,17 +399,23 @@ font-family: 'Roboto', sans-serif;}
 
 
                   .dividingLine {
-                    width: 150px;
-                  height: 0px;
-                  border-top: 1.6px solid #000000;
-                  background-color: #000000;
-                  align-self: center;
-                  margin-left: 25px;
+                    display: none;
                   }
 
-                  h2 {padding-left: 15px;}
+                  .otherProducts {
+                    margin-top: -10px;
+                    margin-bottom: 5px;
 
-                  .main2 {margin-top: 35px;
+                  }
+
+                  h2 {padding-left: 0px;
+                    margin: 0px;
+                    margin-left: ;
+                    font-size: 16px;
+
+                  }
+
+                  .main2 {margin-top: 0px;
                   display: flex;
                   flex-direction: column;
                   align-items: center;
@@ -381,7 +435,7 @@ font-family: 'Roboto', sans-serif;}
                   .productGrid {display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    align-items: center;;
+                    align-items: center;
                     background-color: ;
                     margin-right: 0px;
                     margin-top: 0px;
@@ -392,33 +446,38 @@ font-family: 'Roboto', sans-serif;}
                   .gridItem {
                       background-color: ;
                       border: ;
-                      padding: 5px;
+                      padding: ;
+                      padding-left: 50px;
                       margin-left: 0px;
                       margin-right: 0px;
-                      margin-bottom: 30px;
+                      margin-bottom: 10px;
                       text-align: left;
                       font-family: 'Roboto', sans-serif;
                       display: flex;
                       flex-direction: row;
                       width: 100%;
+                      height: 100%;
               }
 
                   .itemSubContent {display: flex;
                     flex-direction: column;
-                    background-color: pink;
-
-
-
+                    background-color: ;
+                    padding-left: 25px;
+                    height: 157px;
+                    margin-top: ;
+                    width: ;
                   }
 
                   .productImage {
                     width: 149px;
                     height: 157px;
+
                   }
 
                   .productImage img {width: 149px;
                     height: 157px;
                     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.09);
+
                   }
 
 
@@ -427,6 +486,8 @@ font-family: 'Roboto', sans-serif;}
                   padding-left: 5px;
                   height: ;
                   width: 240px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
 
 
                   }
@@ -436,13 +497,14 @@ font-family: 'Roboto', sans-serif;}
                     font-family: 'Roboto', sans-serif;
                     color: white;
                     border: 0px;
-                    padding: 5px;
-                    margin-top: 0px;
+                    padding: 8px 0px 8px 0px;
+                    margin-top: 20px;
+                    margin-bottom: 0px;
                     border-radius: 5px;
                     letter-spacing: 0.9px;
-                    font-size: 17px;
+                    font-size: 14px;
                     height: ;
-                    width: 50%;
+                    width: 45%;
                   }
 
                   .productName {
@@ -450,8 +512,7 @@ font-family: 'Roboto', sans-serif;}
                         font-weight: 600;
                         padding-left: 5px;
                         width:75%;
-
-                  }
+                                          }
 
 
                   .productPrice {
