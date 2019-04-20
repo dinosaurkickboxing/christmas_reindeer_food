@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CRF Shop</title>
+<title>Christmas Reindeer Food Shop</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/shop.css"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,500i,700,700i" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </head>
 
 <body>
+
 <header>
   <div id="logo-container">
     <a href="christmas_reindeer_food/index.html"> <div id='logo'>
@@ -22,11 +25,11 @@
   <nav>
     <ul>
       <li> <a href="christmas_reindeer_food/donate.html">DONATE</li> </a>
-      <li> <a href="christmas_reindeer_food/shop.html">SHOP</li> </a>
+      <li> <a href="christmas_reindeer_food/shop.html"><u>  SHOP</u></li> </a>
       <li> <a href="christmas_reindeer_food/about.html">ABOUT</li> </a>
-      <li>AUTHOR VISITS</li>
-      <li>EVENTS</li>
-      <li>EXTRAS</li>
+      <li> <a href="">AUTHOR VISITS</li> </a>
+      <li> <a href="">EVENTS</li> </a>
+      <li> <a href="">EXTRAS</li> </a>
     </ul>
   </nav>
 </header>
@@ -165,8 +168,41 @@
   </div>
 </div>
 
+<footer>
+<div id="footer-container">
+  <div id="up-w">
+  <div id="up-to-date">
+    <p><span>STAY UP TO DATE</span><br>Join our mailing list to receive updates from Christmas Reindeer Food’s author, Nicole Antoinette!</p>
+    <form>
+      <input type="text" content="emailaddress" placeholder="Email Address">
+    </form>
+    <form action="/subscribe.php">
+      <input type="submit" value="SUBSCRIBE">
+    </form>
+  </div>
 </div>
+
+<div id="donate-w">
+  <div id="donate-foot">
+    <p><span>DONATE</span><br>Your donation helps donate books and fund author visits to schools for a fun day of games and activities with Nicole!</p>
+    <form>
+      <input type="text" content="amount" placeholder="Donation Amount">
+    </form>
+    <form action="/donate.html">
+      <input type="submit" value="DONATE">
+    </form>
+  </div>
 </div>
+</footer>
+
+<div id="candy-container">
+  <div id="candy">
+    <div id="candy-img">
+      <img src="images/candy-cane.jpg"/>
+    </div>
+  </div>
+</div>
+
 
 <script>
 function myFunction() {
