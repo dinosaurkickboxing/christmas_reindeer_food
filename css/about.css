@@ -165,6 +165,10 @@ a:hover {
   width: 200px;
 }
 
+#toggle-collapse #fun-facts p{
+  padding-left: 320px;
+}
+
 /* author */
 #author {
   padding-bottom: 450px;
@@ -373,6 +377,10 @@ footer {
   .character-one {
     padding: 0px 0px 20px 20px;
     border-right: none;
+  }
+
+  #toggle-collapse #fun-facts p{
+    padding-left: 0px;
   }
 
   #author{
