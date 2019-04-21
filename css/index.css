@@ -58,6 +58,9 @@ a {
   text-decoration: none;
   color: #166B19;
 }
+a:hover{
+  color: #000;
+}
 
 #crf1-container {
   display: flex;
