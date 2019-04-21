@@ -399,23 +399,24 @@ footer {
                     height: 5%;
                     align-items: center;
                     background-color: #D6F3DC;
-                    border-radius: 25px 0px 0px 25px;
+                    border-radius: 25px 25px 25px 25px;
                     }
 
                   nav ul {
                     display: flex;
                     font-size: 16px;
-                    padding-top: 10px;
-                    padding-left: 5px;
+                    padding-top: 15px;
+                    padding-left: 0px;
 
                   }
 
                   nav li {
                     list-style: none;
-                    font-size: 10pt;
-                    width: 15%;
+                    font-size: 12px;
+                    width: ;
                     color: #166B19;
-                    margin-left: 0px;
+                    margin-left:18px;
+                    margin-right: 0px;
 
                   }
 
@@ -564,6 +565,7 @@ footer {
                     margin-right: 0px;
                     margin-top: 0px;
                     width: 400px;
+                    margin-bottom: 30px;
 
                   }
 
@@ -572,9 +574,10 @@ footer {
                       border: ;
                       padding: ;
                       padding-left: 50px;
+                      padding-bottom: 5px;
                       margin-left: 0px;
                       margin-right: 0px;
-                      margin-bottom: 10px;
+                      margin-bottom: 0px;
                       text-align: left;
                       font-family: 'Roboto', sans-serif;
                       display: flex;
