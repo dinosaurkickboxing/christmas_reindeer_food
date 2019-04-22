@@ -1,0 +1,349 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  flex-direction: row;
+}
+
+#logo-container {
+  display: flex;
+}
+
+#logo {
+  flex: 2;
+  height: 20%;
+}
+
+#logo-image {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+}
+
+#logo-image img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  width: auto;
+  height: 20%;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50%;
+  background-color: #D6F3DC;
+  border-radius: 50px 0px 0px 50px;
+  }
+
+nav ul {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  font-size: 12pt;
+  width: 40%;
+  color: #166B19;
+}
+
+a {
+  text-decoration: none;
+  color: #166B19;
+}
+a:hover{
+  color: #000;
+}
+
+main{
+  width: 85%;
+  padding-left: 9%;
+}
+
+.main{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  font-weight: 300;
+  padding-left: 20px;
+  width: 60%;
+}
+
+.text h3{
+  color: #C12627;
+}
+#donate .img img{
+  max-width: 500px;
+}
+
+#pay{
+  margin-top: 50px;
+}
+
+#pay #buttons{
+  margin-top: 50px;
+}
+
+#pay .buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pay .buttons button{
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: #61A664;
+}
+
+
+
+
+#form{
+  padding: 50px 0px 50px 0px;
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container .sub{
+  padding-top: 20px;
+}
+
+
+footer {
+  text-align: center;
+  flex-direction: row;
+  background-color: #D6F3DC;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#up-w {
+  width: 25%;
+  padding-right: 3%;
+}
+
+#up-to-date {
+  font-weight: lighter;
+  font-size: 12pt;
+  flex: 2;
+}
+
+#up-to-date span {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#up-to-date form input {
+  font-weight: lighter;
+  color: grey;
+  background: white;
+  padding: 2%;
+  text-align: left;
+  width: 80%;
+  font-size: 12pt;
+}
+
+#up-to-date input[type=submit] {
+  width: 85%;
+  margin-top: 1%;
+  background: #166B19;
+  border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .5pt;
+}
+
+#donate-w {
+  width: 25%;
+  padding-left: 3%;
+}
+
+#donate-foot {
+  font-weight: lighter;
+  font-size: 12pt;
+  flex: 2;
+}
+
+#donate-foot span {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#donate-foot form input {
+  font-weight: lighter;
+  color: grey;
+  background: white;
+  padding: 2%;
+  text-align: left;
+  width: 80%;
+  font-size: 12pt;
+}
+
+#donate-foot input[type=submit] {
+  width: 85%;
+  margin-top: 1%;
+  background: #166B19;
+  border-style: hidden;
+  color: white;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .5pt;
+}
+
+#candy-container {
+  width: 100%;
+  height: 8%;
+  margin-top: 2%;
+}
+
+#candy {
+  height: 8%;
+}
+
+#candy-img {
+  height: 8%;
+}
+
+#candy-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #donate .img img{
+    position: relative;
+    max-width: 300px;
+  }
+  #logo-container {
+    display: flex;
+    height: 10%;
+    width: 30%;
+    margin-left: 28%;
+  }
+
+  #logo {
+    height: 10%;
+  }
+
+  #logo-image {
+    display: block;
+    height: 10%;
+    width: 35%;
+    align-items: center;
+  }
+
+  nav {
+    margin-top: 15%;
+    margin-left: 0%;
+    display: block;
+    height: 5%;
+    align-items: center;
+    background-color: #D6F3DC;
+    border-radius: 25px 0px 0px 25px;
+  }
+
+  nav ul {
+    display: flex;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+
+  nav li {
+    list-style: none;
+    font-size: 10pt;
+    width: 15%;
+    color: #166B19;
+  }
+
+  a {
+    text-decoration: none;
+    color: #166B19;
+  }
+  #footer-container {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #up-w {
+    width: 100%;
+    padding-right: 0%;
+  }
+
+  #donate-w {
+    width: 100%;
+    padding-right: 0%;
+  }
+
+  #donate-foot {
+    margin-top: 15%;
+  }
+
+}
